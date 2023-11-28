@@ -2,16 +2,15 @@
     font-family: Popp;
 }
 .header {
-    background-color: #000;
+    background-color: #000000;
     border-bottom: 2px solid #fff;
     position: fixed;
     top: 0;
+    height: 68px;
     width: 100%;
     display: flex;
-    padding: 0.75rem;
-    font-size: 1.5rem;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .header span{
@@ -20,12 +19,9 @@
     font-weight: 500;
 }
 
-.header nav {
-    margin-right: 1rem;
-}
-
 .header a{
     text-decoration: none;
     color: #fff;
-    padding-inline: 0.5rem;
+    padding-inline: 1rem;
+    font-size: 1.125rem; /* 18 px é  1.125rem */
 }
