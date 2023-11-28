@@ -1,13 +1,17 @@
+/* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import styles from "./Header.module.css";
-
+import { Link } from "react-router-dom";
+import Logo from "./Vector-2.png"
 function Header() {
     return (
         <header className={styles.header}>
-            <span>Acervo Aegis</span>
+            <Link to="/">
+                <img src={ Logo }/>
+            </Link>
             <nav>
-                <a href="#" className={styles.link}>Home</a>
-                <a href="#" className={styles.link}>Assistir</a>
+                <Link to="/">Home</Link>
+                <Link to="/watch">Assistir</Link>
             </nav>
         </header>
     );

@@ -13,10 +13,9 @@
     justify-content: space-around;
 }
 
-.header span{
-    font-size: 2rem;
-    color: #fff;
-    font-weight: 500;
+.header img{
+    width: 150px;
+    height: 100%;
 }
 
 .header a{
