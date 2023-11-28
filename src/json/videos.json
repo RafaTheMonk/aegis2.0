@@ -14,6 +14,13 @@
         "category": "Nível iniciante"
     },
     {
+        "id": "iiK5PQgHgCo",
+        "title": "Segurança e senhas:",
+        "cover": "https://img.youtube.com/vi/iiK5PQgHgCo/mqdefault.jpg",
+        "url": "https://youtu.be/iiK5PQgHgCo",
+        "category": "Nível iniciante"
+    },
+    {
         "id": "E3fWr57HSKM",
         "title": "Conscientização sobre Phishing:",
         "cover": "https://img.youtube.com/vi/E3fWr57HSKM/mqdefault.jpg",
@@ -32,6 +39,13 @@
         "title": "Backup e Recuperação de dados:",
         "cover": "https://img.youtube.com/vi/1t9uBsMJW4k/mqdefault.jpg",
         "url": "https://youtu.be/1t9uBsMJW4k",
+        "category": "Nível iniciante"
+    },
+    {
+        "id": "52oBHcFljQU",
+        "title": "Inteligência Artificial e Cibersegurança:",
+        "cover": "https://img.youtube.com/vi/52oBHcFljQU/mqdefault.jpg",
+        "url": "https://youtu.be/52oBHcFljQU",
         "category": "Nível iniciante"
     },
     {
@@ -70,6 +84,20 @@
         "category": "Nível intermediário"
     },
     {
+        "id": "8oFcjJi7mp8",
+        "title": "Segurança em IoT:",
+        "cover": "https://img.youtube.com/vi/8oFcjJi7mp8/mqdefault.jpg",
+        "url": "https://youtu.be/8oFcjJi7mp8",
+        "category": "Nível intermediário"
+    },
+    {
+        "id": "0rkpa2jLqFg",
+        "title": "Aspectos Jurídicos em Cibersegurança:",
+        "cover": "https://img.youtube.com/vi/0rkpa2jLqFg/mqdefault.jpg",
+        "url": "https://youtu.be/0rkpa2jLqFg",
+        "category": "Nível intermediário"
+    },
+    {
         "id": "RIQsengnsZQ",
         "title": "Teste de Penetração:",
         "cover": "https://img.youtube.com/vi/RIQsengnsZQ/mqdefault.jpg",
@@ -102,6 +130,20 @@
         "title": "Segurança em redes sem fio:",
         "cover": "https://img.youtube.com/vi/2jHuTZ1y0b8/mqdefault.jpg",
         "url": "https://youtu.be/2jHuTZ1y0b8",
+        "category": "Nível avançado"
+    },
+    {
+        "id": "3DJX4xgrZek",
+        "title": "Blockchain e segurança:",
+        "cover": "https://img.youtube.com/vi/3DJX4xgrZek/mqdefault.jpg",
+        "url": "https://youtu.be/3DJX4xgrZek",
+        "category": "Nível avançado"
+    },
+    {
+        "id": "uLzmeeEAc34",
+        "title": "CiberSegurança Industrial:",
+        "cover": "https://img.youtube.com/vi/uLzmeeEAc34/mqdefault.jpg",
+        "url": "https://youtu.be/uLzmeeEAc34",
         "category": "Nível avançado"
     }
 ]
