@@ -1,8 +1,13 @@
+import Header from "./components/Header";
+import Footer from './components/Footer/index';
+import Body from './components/Body/index';
+
 function App() {
   return (
     <>
-      <h1>Hello World!</h1>
-      <p>Olá Mundo! Estou aprendendo React JS!</p>
+      <Header />
+      <Body />
+      <Footer />
     </>
   );
 }
