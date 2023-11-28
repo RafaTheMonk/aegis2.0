@@ -10,7 +10,8 @@ function Header() {
                 <img src={ Logo }/>
             </Link>
             <nav>
-                <Link to="/">Home</Link>
+                <Link to="/">Página principal</Link>
+                <Link to="/Home">Biblioteca</Link>
                 <Link to="/watch">Assistir</Link>
             </nav>
         </header>
