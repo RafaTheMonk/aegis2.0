@@ -2,7 +2,6 @@ import styles from "./VideoList.module.css";
 import Card from "../Card"
 
 function VideoList({ videos, emptyHeading }) {
-
     const count = videos.length
     let heading = emptyHeading
     if(count > 0){

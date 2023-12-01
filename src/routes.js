@@ -1,5 +1,5 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Biblioteca from "./pages/Biblioteca/index.js";
+import Home from "./pages/Home/index.js";
 import Watch from "./pages/Watch/index.js"
 import PageNotFound from './pages/PageNotFound/index';
 import Entrada from "./pages/Entrada/index.js";
@@ -11,7 +11,7 @@ function AppRoutes(){
         <BrowserRouter>
             <Routes>
                 <Route path="/" element={ <Entrada /> }></Route>
-                <Route path="/biblioteca" element={ <Biblioteca /> }></Route>
+                <Route path="/Home" element={ <Home /> }></Route>
                 <Route path="/watch/:id" element={ <Watch /> }></Route>
                 <Route path="*" element={<PageNotFound />}></Route>
                 <Route path="/search" element={<Search />}></Route>
