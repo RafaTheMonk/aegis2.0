@@ -3,11 +3,9 @@ import VideoList from "../../components/VideoList"
 import { useState } from "react";
 
 function filterVideos(videos, searchText) {
-    const searchTextLower = searchText.toLowerCase(); // Converter o texto de pesquisa para minúsculas
-
+    const searchTextLower = searchText.toLowerCase();
     return videos.filter((video) => 
-        video.category.toLowerCase().includes(searchTextLower) ||
-        video.title.toLowerCase().includes(searchTextLower)
+        video.category.toLowerCase().includes(searchTextLower) || video.title.toLowerCase().includes(searchTextLower)
     );
 }
 
