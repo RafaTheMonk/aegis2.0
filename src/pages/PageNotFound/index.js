@@ -6,12 +6,12 @@ import Footer from "../../components/Footer"
 function PageNotFound() {
     return (
         <>
-            <Header />
-            <section className={styles.container}>
-                <h2>Ops! Conteúdo não localizado</h2>
-                <img src={erro404} alt="Logo de Página não localizada" />
-            </section>
-            <Footer />
+        <Header />
+        <section className={styles.container}>
+            <h2>Ops! Conteúdo não localizado</h2>
+            <img src={erro404} alt="Logo de Página não localizada" />
+        </section>
+        <Footer />
         </>
     );
 }

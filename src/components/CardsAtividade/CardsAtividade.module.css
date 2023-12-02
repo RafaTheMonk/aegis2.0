@@ -7,20 +7,15 @@
 	--h2-font: 3.2rem;
 	--p-font: 1rem;
 }
-section{
-	display: flex;
-	flex-direction: column;
-	gap: 100px;
-	max-width: 1110px;
-	margin: 0 auto;
-}
 .atividades{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	gap: 20px;
+	gap: 100px;
+	max-width: 1110px;
+	margin: 0 auto;
 }
 .atividades_head{
 	display: flex;
@@ -61,12 +56,6 @@ section{
 /* Responsive */
 
 @media(max-width: 1200px){
-	section{
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		width: 500px;
-	}
 	:root{
 		--big-font: 4rem;
 		--h2-font: 2.5rem;
@@ -76,6 +65,9 @@ section{
 	.atividades{
 		display: flex;
 		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		width: 500px;
 	}
 	.atividades_cardGroup{
 		display: flex;

@@ -2,6 +2,7 @@ import styles from "./Card.module.css"
 import { Link } from 'react-router-dom';
 
 function Card({ id }){
+    console.log("ID do vídeo no Card:", id);
     return(
         <section className={styles.card}>
             <Link to={`/watch/${id}`}>
