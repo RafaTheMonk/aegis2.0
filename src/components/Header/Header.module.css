@@ -1,23 +1,24 @@
 .header {
-    background-color: #000000;
-    border-bottom: 2px solid #fff;
-    position: fixed;
-    top: 0;
-    height: 68px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+  background-color: #000000;
+  border-bottom: 2px solid #fff;
+  position: fixed;
+  top: 0;
+  height: 68px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  z-index: 9999;
 }
 
-.header img{
-    width: 150px;
-    height: 100%;
+.header img {
+  width: 150px;
+  height: 100%;
 }
 
-.header a{
-    text-decoration: none;
-    color: #fff;
-    padding-inline: 1rem;
-    font-size: 1.125rem; /* 18 px é  1.125rem */
+.header a {
+  text-decoration: none;
+  color: #fff;
+  padding-inline: 1rem;
+  font-size: 1.125rem; /* 18 px é  1.125rem */
 }
